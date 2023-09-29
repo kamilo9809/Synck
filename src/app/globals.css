@@ -1,4 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&display=swap');
 
+.tamaño-texto{
+    font-size: 50px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.parrafo1{
+    height: 106px;
+    width: 421px;
+    font-size: 20;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.customtext {
+    background: linear-gradient(to right, #FFEC3E, #FFB23E);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}

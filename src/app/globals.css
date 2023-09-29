@@ -22,3 +22,8 @@
     background-clip: text;
     color: transparent;
 }
+
+.navbarHeight{
+    height: 90px;
+
+}

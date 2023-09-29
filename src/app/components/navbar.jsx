@@ -1,7 +1,9 @@
-  import React from "react";
-  import Dropdown from "./dropdown";
+import React from "react";
+import Dropdown from "./dropdown";
+
 
   export default function Navbar() {
+
     return (
       <nav class="bg-zinc-950">
     <div class="mx-auto max-w-7x1 px-2 sm:px-6 lg:px-8">

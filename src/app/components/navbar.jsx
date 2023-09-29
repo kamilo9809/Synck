@@ -3,7 +3,7 @@
 
   export default function Navbar() {
     return (
-      <nav class="bg-color-gris">
+      <nav class="bg-zinc-950">
     <div class="mx-auto max-w-7x1 px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
 
@@ -11,7 +11,7 @@
 
           {/*aca vamos a poner la imagen */}
           <div class="flex flex-shrink-0 items-center">
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"/>
+            <img class="h-8 w-auto" src="../images/Group.svg" alt="Your Company"/>
           </div>
 
           {/*aca  van a ir las opciones del navbar */}
@@ -35,6 +35,8 @@
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+        <Dropdown />
+        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Login/Register</a>
       </div>
     </div>
   </nav>

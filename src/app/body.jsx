@@ -9,7 +9,7 @@ export default function Body() {
       <Image className="fixed" src="/images/PLAY BLUR.svg" alt="" width={400} height={400} />
 
       {/*justifica y centra 2 texto y foto*/}
-      <div className="bg-color-gris flex flex-row items-center justify-around">
+      <div className="bg-color-gris flex flex-row items-center justify-around h-screen">
 
         {/*justifica y centra texto 50% de la pantalla*/}
         <div className="flex flex-col items-center justify-center">

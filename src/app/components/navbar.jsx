@@ -18,8 +18,8 @@ import Dropdown from "./dropdown";
           </div>
 
           {/*aca  van a ir las opciones del navbar */}
-          <div class="hidden sm:ml-6 sm:block">
-            <div class="flex space-x-4">
+          <div class="hidden sm:ml-2 sm:block">
+            <div class="flex space-x-7 ">
               <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">home</a>
               <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">about</a>
               <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">community</a>

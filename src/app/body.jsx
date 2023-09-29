@@ -9,9 +9,7 @@ export default function Body(){
           <div className="bg-color-gris flex flex-row">
           <Image className="fixed" src="/images/PLAY BLUR.svg" alt="" width={400} height={400} />  
             <div className="flex flex-col items-center justify-center">
-              <h2 className="text-white">CREA</h2>                
-              <h2 className="text-white" >EXPONE</h2>                
-              <h2 className="text-white">CONECTA</h2>    
+              <h2 className="text-white ">CREA EXPONE CONECTA</h2>                   
               <p className="text-white">Sube y comparte tu música donde los artistas y productores conectan a través de sus habilidades. </p>            
             </div>
             <div>

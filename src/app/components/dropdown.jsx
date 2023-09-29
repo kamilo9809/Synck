@@ -13,7 +13,7 @@ export default function Dropdown() {
       <div>
         <button
           type="button"
-          className="inline-flex"
+          className="border "
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"

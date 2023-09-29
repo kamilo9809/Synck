@@ -1,11 +1,12 @@
+"use client";
 import React from "react";
 import Dropdown from "./dropdown";
 
 
   export default function Navbar() {
-
+ 
     return (
-      <nav class="bg-zinc-950">
+      <nav class="bg-color-gris ">
     <div class="mx-auto max-w-7x1 px-2 sm:px-6 lg:px-8">
       <div class="relative flex h-16 items-center justify-between">
 

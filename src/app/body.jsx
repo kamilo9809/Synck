@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ComplementBody1 from "./components/complemenBody1";
 
 
 export default function Body() {
@@ -6,7 +7,7 @@ export default function Body() {
     <div>
 
       {/*imagen blur de reproduccion*/}
-      <Image className="fixed" src="/images/PLAY BLUR.svg" alt="" width={400} height={400} />
+      <Image className="absolute playBlur" src="/images/PLAY BLUR.svg" alt="" width={500} height={500} />
 
       {/*justifica y centra 2 texto y foto*/}
       <div className="bg-color-gris flex flex-row items-center justify-around h-screen">
@@ -18,7 +19,7 @@ export default function Body() {
           <div className="w-345 h-210 flex justify-center items-center">
             <h1 className="tamaño-texto text-white font-bold">
               CREA{' '} <br />
-              <span className="customtext fixed font-bold blur-sm">EXPONE</span>
+              <span className="customtext absolute font-bold blur-sm">EXPONE</span>
               <span className="customtext">EXPONE</span> <br /> CONECTA
             </h1>
         </div>
@@ -32,6 +33,10 @@ export default function Body() {
         </div>
       </div>
       {/*texto y foto fin*/}
+
+      <div className="bg-color-gris">
+          <ComplementBody1 />
+      </div>
 
     </div>
   );

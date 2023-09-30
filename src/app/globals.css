@@ -16,6 +16,10 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+.parrafo2{
+    width: 600px;
+}
+
 .customtext {
     background: linear-gradient(to right, #FFEC3E, #FFB23E);
     -webkit-background-clip: text; 
@@ -26,4 +30,8 @@
 .navbarHeight{
     height: 90px;
 
+}
+
+.playBlur{
+    margin-top: 200px;
 }

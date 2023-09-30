@@ -28,8 +28,8 @@ export default function ComplementBody3(){
                     <h2 className="customtext">BUSCA EL NOMBRE DE UN TRACK ES ESPECÍFICOO FILTRA POR EL GÉNERO QUE DESEES</h2>
                     <p>Navegación directa y sencilla.</p>
                     <div>
-                    <Image src={'/images/SEARCH PERS 1.svg'} alt="SEARCH" width={500} height={500} />           
-                    <Image src={'/images/FILTER PERS 1.svg'} alt="FILTER" width={500} height={500} />           
+                    <Image src={'/images/SEARCH PERS 1.png'} alt="SEARCH" width={500} height={500} />           
+                    <Image src={'/images/FILTER PERS 1.png'} alt="FILTER" width={500} height={500} />           
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ export default function ComplementBody3(){
                     <p>Si eres un artista y llevas un tiempo para empezar a estructurar, usa el looping avanzado que te permitirá seleccionar una región específica dentro del track, como por ejemplo un verso, o el mismo estribillo; Esto facilita la composición y revisión las creaciones sin esfuerzo.</p>
                 </div>
                 <div>
-                    <Image src={'/images/LOOPING PERS 1.svg'} alt="FILTER" width={500} height={500} />           
+                    <Image src={'/images/LOOPING PERS 1.png'} alt="FILTER" width={500} height={500} />           
                 </div>
                 <div>
                     <div>
@@ -55,7 +55,7 @@ export default function ComplementBody3(){
                         <Image src={'/images/vaconel rect 23.png'} alt="R30" width={500} height={500} />           
                     </div>
                     <div>
-                        <Image src={'/images/Rectangle 21.svg'} alt="R25" width={500} height={500} />           
+                        <Image src={'/images/Rectangle 21.svg'} alt="R21" width={500} height={500} />           
                     </div>
                 </div>
 
@@ -65,8 +65,25 @@ export default function ComplementBody3(){
                         <p>No solo encontrarás una plataforma para compartir tu música, sino también un espacio donde desatas tu potencial musical, conoces a otros apasionados y colaboras en proyectos para dar vida a tus creaciones.</p>
                     </div>
                     <div>
-                    <Image src={'/images/Rectangle 21.svg'} alt="R25" width={500} height={500} />           
+                    <Image src={'/images/HYLLSDIS 1.svg'} alt="hylls" width={500} height={500} />           
                     </div>
+                </div>
+
+                <div>
+                    <Image className="" src={'/images/Rectangle 27 linkredes.png'} alt="hylls" width={500} height={500}/>
+                    <a className="" href="#"><Image src={'/images/discord.svg'} alt="hylls" width={50} height={50} /></a>
+                    <a className="" href="#"><Image src={'/images/twitter.svg'} alt="hylls" width={50} height={50} /></a>
+                    <a className="" href="#"><Image src={'/images/facebook.svg'} alt="hylls" width={50} height={50} /></a>
+                    <a className="" href="#"><Image src={'/images/youtube.svg'} alt="hylls" width={50} height={50} /></a>
+                    <a className="" href="#"><Image src={'/images/telegram.svg'} alt="hylls" width={50} height={50} /></a>
+                    <a className="" href="#"><Image src={'/images/instagram.svg'} alt="hylls" width={50} height={50} /></a>
+                </div>
+                    <Image className="" src={'/images/polygon 8.png'} alt="hylls" width={500} height={500}/>
+                    <Image className="" src={'/images/privacy.svg'} alt="hylls" width={500} height={500}/>
+
+
+                <div>
+                    
                 </div>
 
 

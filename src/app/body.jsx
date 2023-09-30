@@ -25,6 +25,7 @@ export default function Body() {
           {/* Párrafo */}
           <div className="parrafo1 mt-4 text-center">
             <p className="parrafo1 text-white">Sube y comparte tu música donde los artistas y productores conectan a través de sus habilidades.</p>
+            <button className="confButtonAcces ">acceso anticipado</button>
           </div>
         </div>
         

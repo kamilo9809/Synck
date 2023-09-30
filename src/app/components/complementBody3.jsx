@@ -41,13 +41,19 @@ export default function ComplementBody3(){
                     <Image src={'/images/LOOPING PERS 1.png'} alt="FILTER" width={500} height={500} />           
                 </div>
                 <div>
+
+                    {/*hasta aca lleva se lleva el diseño de manera oficial*/}
+
+
+
                     <div>
-                        <h2 className="customtext" >CONECTA TUS REDES</h2>
+                        <h2 className="customtext" >CONECTA TUS REDES Y EMPIEZA A COMPARTIR</h2>
                     </div>
                     <p>En la parte inferior de la página, podrás enlazar tus redes sociales preferidas y de contacto por lo tanto estarás generando un trafico constante y directo en todo momento. </p>
                 </div>
                 <div>
-                <Image src={'/images/redes+.svg'} alt="FILTER" width={500} height={500} />           
+                <Image src={'/images/redes+.svg'} alt="FILTER" width={500} height={500} />       
+                <p>En SYNCK, valoramos la simplicidad y la conectividad en la música. Nuestra función de compartir se basa en la eficiencia. Con un smartlink exclusivo, puedes compartir tu música con precisión. </p>    
                 </div>
                 <div>
                     <div>
@@ -73,7 +79,7 @@ export default function ComplementBody3(){
                     <Image className="" src={'/images/Rectangle 27 linkredes.png'} alt="hylls" width={500} height={500}/>
                     <a className="" href="#"><Image src={'/images/discord.svg'} alt="hylls" width={50} height={50} /></a>
                     <a className="" href="#"><Image src={'/images/twitter.svg'} alt="hylls" width={50} height={50} /></a>
-                    <a className="" href="#"><Image src={'/images/facebook.svg'} alt="hylls" width={50} height={50} /></a>
+                    <a  className="" href="#"><Image src={'/images/facebook.svg'} alt="hylls" width={50} height={50} /></a>
                     <a className="" href="#"><Image src={'/images/youtube.svg'} alt="hylls" width={50} height={50} /></a>
                     <a className="" href="#"><Image src={'/images/telegram.svg'} alt="hylls" width={50} height={50} /></a>
                     <a className="" href="#"><Image src={'/images/instagram.svg'} alt="hylls" width={50} height={50} /></a>

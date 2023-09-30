@@ -21,17 +21,20 @@
 }
 
 .customtext {
-    background: linear-gradient(to right, #FFEC3E, #FFB23E);
+    background: linear-gradient(89deg, #FFEC3E 3.19%, #FFB23E 86.97%);
     -webkit-background-clip: text; 
     background-clip: text;
     color: transparent;
 }
 
 .navbarHeight{
-    height: 90px;
-
+    height: 80px;
+    filter: blur(98%);
 }
 
 .playBlur{
     margin-top: 200px;
 }
+
+
+

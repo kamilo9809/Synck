@@ -16,7 +16,10 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       opacity:{
-        "97":"0.97"
+        "98":"0.989998"
+      },
+      blur:{
+        "1": "0,01"
       },
     },
   },

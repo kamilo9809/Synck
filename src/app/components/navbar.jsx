@@ -6,7 +6,7 @@ import Dropdown from "./dropdown";
   export default function Navbar() {
  
     return (
-      <nav class="bg-color-gris opacity-97">
+      <nav class="bg-color-gris opacity-98">
     <div class="mx-auto max-w-7x1 px-2 sm:px-6 lg:px-8">
       <div class="relative flex navbarHeight items-center justify-between">
 

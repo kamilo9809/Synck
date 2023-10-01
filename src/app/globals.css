@@ -86,6 +86,7 @@
     font-size: 60px;
     font-weight: bold;
 }
+/*david*/
 .customtextw{
 background: linear-gradient(90deg, rgba(255, 255, 255, 0.37) 0.34%, #FFEC3E 53.41%, #FFB23E 89.72%);
 background-clip: text;
@@ -116,4 +117,14 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+=======
+
+.container{
+    display: flex;
+    align-items: center;
 }
+
+.image{
+    margin-right: 200px;
+}
+/*david fin*/

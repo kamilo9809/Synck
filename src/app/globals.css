@@ -5,19 +5,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&display=swap');
 
 .tamaño-texto{
-    font-size: 50px;
+    font-size: 65px;
     font-family: 'Archivo Black', sans-serif;
 }
 
 .parrafo1{
     height: 106px;
     width: 421px;
-    font-size: 20;
+    font-size: 18px;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 .parrafo2{
-    width: 600px;
+    width: 650px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 21px;
 }
 
 .customtext {
@@ -25,6 +27,7 @@
     -webkit-background-clip: text; 
     background-clip: text;
     color: transparent;
+    font-weight: bold;
 }
 
 .navbarHeight{
@@ -61,6 +64,8 @@
     border: 2px solid rgba(255, 178, 62, 0.19);
     background: rgba(217, 217, 217, 0.03);
     top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .confButtonAcces:active{
@@ -70,4 +75,14 @@
 .title2{
     font-size: 54px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.customtext2 {
+    background: linear-gradient(89deg, #42413f 3.19%, #dfd813 86.97%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
 }

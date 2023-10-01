@@ -15,17 +15,22 @@ export default function Body() {
         <div className="flex flex-col items-center justify-center">
           {/* Título */}
           <div className="w-345 h-210 flex justify-center items-center">
-            <h1 className="tamaño-texto text-white font-bold">
+            <h1 className="tamaño-texto text-white font-bold ">
               CREA{' '} <br />
-              <span className="customtext absolute font-bold blur-sm">EXPONE</span>
+              <span className="customtext absolute font-bold blur-sm ">EXPONE</span>
               <span className="customtext">EXPONE</span> <br /> CONECTA
             </h1>
           </div>
           
           {/* Párrafo */}
           <div className="parrafo1 mt-4 text-center">
-            <p className="parrafo1 text-white">Sube y comparte tu música donde los artistas y productores conectan a través de sus habilidades.</p>
-            <button className="confButtonAcces ">acceso anticipado</button>
+            <p className="parrafo1 text-white">
+              <em> 
+                <span className="text-white font-bold">Sube y comparte tu música</span> donde los artistas y productores conectan a través de sus habilidades.
+              </em>
+            </p>
+            <button className="confButtonAcces text-white"><span className="font-bold text-white text-base">Acceso Anticipado</span></button>
+            
           </div>
         </div>
         

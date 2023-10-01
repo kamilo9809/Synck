@@ -21,6 +21,9 @@ module.exports = {
       blur:{
         "1": "0,01"
       },
+      height:{
+        "customBoxText":"527px"
+      }
     },
   },
   plugins: []

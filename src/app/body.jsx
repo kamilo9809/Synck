@@ -17,7 +17,7 @@ export default function Body() {
           <div className="w-345 h-210 flex justify-center items-center">
             <h1 className="tamaño-texto text-white font-bold ">
               CREA{' '} <br />
-              <span className="customtext absolute font-bold blur-sm ">EXPONE</span>
+              <span className="customBoxText absolute font-bold blur-sm ">EXPONE</span>
               <span className="customtext">EXPONE</span> <br /> CONECTA
             </h1>
           </div>

@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function ComplementBody2(){
     return(
-        <div className="flex flex-col justify-center items-center h-a">
-            <div class= "container">
+        <div className="flex flex-col justify-center items-center h-1364">
+            <div className= "container">
             <h2 className="customtext2 tamaño-texto justify-center">CAMBIA LA FORMA EN LA QUE COMPARTES TU MÚSICA CON LOS TUYOS</h2>
             </div>
-            <div class= "container">
+            <div className= "container">
             <p className="parrafo2 text-white">Simplifica la transferencia, reproducción y descarga de cada track, eliminando la necesidad de enviar constantemente archivos, realizando múltiples malabares con diversas plataformas, junto a la baja fidelidad y pésima optimización de la reproducción y previsualización de servicios de mensajería o nube ineficientes.</p>
             </div>
             <div>
@@ -22,8 +22,8 @@ export default function ComplementBody2(){
                     <Image src={'/images/PHONE APP.svg'} alt="celular" width={500} height={500}/>
                 </div>
 
-                <div class="container">
-                    <div class = "image">
+                <div className="container">
+                    <div className = "image">
                         <Image src={'/images/up.svg'} alt="up"width={500} height={500}/>
                     </div>
                         <div>

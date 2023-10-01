@@ -4,10 +4,12 @@ export default function ComplementBody3(){
     return(
         <div>
         <h3>SYNCK ajustará automáticamente la calidad de descarga, protegiendo tus creaciones y evitando el uso indebido.</h3>
-        <div>
-        <h2 className="tamaño-texto customtextw" >CUANDO CARGAS TU TRACK, TIENES LA POSIBILIDAD DE <br /> PERSONALIZAR CADA DETALLE</h2>
-        <p className="pc3">Asigna el título, tonalidad, género y BPM, <span className="ps3">lo mínimo y necesario para subir al instante.</span> <br /> Luego añade una portada reflejando aquello que quieras transmitir.</p>
-        <Image src={'/images/TRACKS.svg'} alt="tracklist" width={1261} height={709} />
+            <div className="c3-tp">
+        <h2 className="title-complement3 py-8" >CUANDO CARGAS TU TRACK, TIENES LA POSIBILIDAD DE <br /> PERSONALIZAR CADA DETALLE</h2>
+        <p className="ptitle-complement3 pt-8">Asigna el título, tonalidad, género y BPM, <span className="spanptitlec3">lo mínimo y necesario para subir al instante.</span> <br /> Luego añade una portada reflejando aquello que quieras transmitir.</p>
+        <div class="flex justify-center items-center">
+        <Image className="imgc3t absolute" src={'/images/TRACKS.svg'} alt="tracklist" width={1261} height={709} />
+        </div>
         </div>
         <div>
             <div>

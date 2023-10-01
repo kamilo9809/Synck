@@ -3,6 +3,8 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 
 .tamaño-texto{
     font-size: 65px;
@@ -86,22 +88,22 @@
     font-size: 60px;
     font-weight: bold;
 }
-.customtextw{
+.title-complement3{
 background: linear-gradient(90deg, rgba(255, 255, 255, 0.37) 0.34%, #FFEC3E 53.41%, #FFB23E 89.72%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 text-align: center;
-font-family: 'Poppins';
+font-family: 'Poppins', Arial, Helvetica, sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.pc3{
+.ptitle-complement3{
     color: #FFF;
 text-align: center;
-font-family: 'Poppins';
+font-family: 'Poppins', Arial, Helvetica, sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -109,11 +111,18 @@ line-height: normal;
 width: 866px;
 margin: 0 auto;
 }
-.ps3{
-    color: #FFF;
-font-family: Poppins;
+.spanptitlec3{
+color: #FFF;
+font-family: 'Poppins', Arial, Helvetica, sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+.c3-tp{
+    height: 889px;
+    position: relative;
+}
+.imgc3t{
+    margin-top: 500px ;
 }

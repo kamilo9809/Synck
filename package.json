@@ -14,7 +14,8 @@
     "next-fonts": "^1.5.1",
     "next-i18next": "^14.0.3",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
     "autoprefixer": "latest",

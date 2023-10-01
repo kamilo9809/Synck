@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function ComplementBody2() {
   return (
     <div className="flex flex-col justify-center items-center h-1364">
+      <Image className=" absolute left-0 rectangleEdit" src={'/images/rectangle 25.png'} alt="rectangulo" width={598} height={882} />
 
 
         {/*edita el parrafo con titulo */}
@@ -21,7 +22,6 @@ export default function ComplementBody2() {
       <div>
         <div className="relative h-customPhone">
           <Image src={'/images/letter.svg'} alt="letter" width={837} height={326} />
-          <Image className="absolute rectangleEdit" src={'/images/rectangle 25.png'} alt="rectangulo" width={500} height={500} />
           <Image className="absolute top-0 right-0" src={'/images/PHONE APP.svg'} alt="celular" width={1056} height={630} />
         </div>
         <div>

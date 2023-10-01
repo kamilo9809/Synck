@@ -11,7 +11,7 @@ export default function ComplementBody1(){
         <br />
         <br />
         </div>
-          <div className="h-50 flex flex-col justify-end items-center">
+          <div className="flex h-customButton flex-col justify-end items-center">
         <button className="confgbutton text-xl font-semibold">Leer más</button>
         </div>
         <Image src="/images/PLAY_BIG_ACT.png" alt="play big" width={1436} height={465} />

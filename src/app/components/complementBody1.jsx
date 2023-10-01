@@ -9,7 +9,10 @@ export default function ComplementBody1(){
         <br />
         <br />
         <button className="confgbutton text-xl font-semibold">Leer más</button>
-        <Image src="/images/PLAY BIG 2.png" alt="play big" width={6038} height={486} />
+        <div>
+          <Image src="/images/PLAY_BIG_ACT.png" alt="play big" width={6038} height={486} />
+        </div>
+        
       </div>
     );
 }

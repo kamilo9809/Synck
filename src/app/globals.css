@@ -86,3 +86,12 @@
     font-size: 60px;
     font-weight: bold;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    margin-right: 200px;
+}

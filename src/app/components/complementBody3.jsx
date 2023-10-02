@@ -37,7 +37,7 @@ export default function ComplementBody3() {
               reflejando tu identidad y estilo.
             </span>{" "}
           </p>
-          <div class="flex justify-center items-center">
+          <div className="flex justify-center items-center">
             <Image
               className="imgc3tct3 absolute"
               src={"/images/CUSTOM.svg"}

@@ -1,4 +1,6 @@
 {
   "title": "¡Hola, Mundo!",
-  "description": "Este es un ejemplo de una aplicación Next.js con i18n."
+  "description": "Este es un ejemplo de una aplicación Next.js con i18n.",
+  "sueño" : "hola como estas"
+
 }

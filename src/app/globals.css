@@ -89,7 +89,7 @@
     font-size: 60px;
     font-weight: bold;
 }
-.title-complement3{
+
 
 /*david*/
 .customtextw{
@@ -105,6 +105,25 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+
+.title-complement3 {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.37) 0.34%,
+      #FFEC3E 53.41%,
+      #FFB23E 89.72%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
 .ptitle-complement3{
     color: #FFF;
 text-align: center;
@@ -233,7 +252,7 @@ text-align: center;
     width: 733px;
     height: 377px;
     flex-shrink: 0;
-    backdrop-filter: blur(7.5px);
+    filter: blur(7.5px);
     margin-right: 212px;
     margin-top: 200px;
     
@@ -277,7 +296,7 @@ letter-spacing: 1px;
 flex-shrink: 0;
 margin-top: 300px;
 }
-=======
+
 
 .container{
     display: flex;

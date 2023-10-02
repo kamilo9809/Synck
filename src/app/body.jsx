@@ -2,6 +2,7 @@ import Image from "next/image";
 import ComplementBody1 from "./components/complementBody1";
 import ComplementBody2 from "./components/complementBody2";
 import ComplementBody3 from "./components/complementBody3";
+import ComplementBody4 from "./components/complementBody4";
 export default function Body() {
   return (
     <div>
@@ -29,7 +30,7 @@ export default function Body() {
                 <span className="text-white font-bold">Sube y comparte tu música</span> donde los artistas y productores conectan a través de sus habilidades.
               </em>
             </p>
-            <button className="confButtonAcces text-white"><span className="font-bold text-white text-base">Acceso Anticipado</span></button>
+            <button className="confButtonAcces text-white hover:bg-gray-700 hover:text-white"><span className="font-bold text-white text-base ">Acceso Anticipado</span></button>
             
           </div>
         </div>
@@ -44,6 +45,7 @@ export default function Body() {
         <ComplementBody1 />
         <ComplementBody2 />
         <ComplementBody3 />
+        <ComplementBody4 />
       </div>
     </div>
   );

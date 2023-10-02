@@ -18,7 +18,7 @@ export default function ComplementBody1() {
       </div>
       <div className="flex h-customButton flex-col justify-end items-center">
           <button className="confgbutton text-xl font-semibold">
-            <Link href="../prologo.jsx" >Ver mas...</Link>
+            <Link href="/prologo" >Ver mas...</Link>
           </button>
       </div>
       <Image

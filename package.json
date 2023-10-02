@@ -10,18 +10,23 @@
     "serve": "live-server"
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@zeit/next-css": "^1.0.1",
+    "cssnano": "^6.0.1",
     "next": "latest",
     "next-fonts": "^1.5.1",
     "next-i18next": "^14.0.3",
+    "postcss-easy-import": "^4.0.0",
     "react": "latest",
     "react-dom": "latest",
+    "tailwindscss": "^0.3.0",
     "typeface-poppins": "^1.1.13"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
+    "autoprefixer": "^10.4.16",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "postcss": "latest",
-    "tailwindcss": "latest"
+    "tailwindcss": "^3.3.3"
   }
 }

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import ComplementBody1 from "../components/complementBody1";
-import ComplementBody2 from "../components/complementBody2";
-import ComplementBody3 from "../components/complementBody3";
-import ComplementBody4 from "../components/complementBody4";
+import ComplementBody1 from "./complementBody1";
+import ComplementBody2 from "./complementBody2";
+import ComplementBody3 from "./complementBody3";
+import ComplementBody4 from "./complementBody4";
 export default function Body() {
   return (
     <div>

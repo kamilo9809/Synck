@@ -24,8 +24,16 @@ module.exports = {
       height:{
         "customBoxText":"527px",
         "customButton" : "165px",
-        "customPhone" : "874px"
-      }
+        "customPhone" : "874px",
+        "fatsit": "1102px"
+      },
+      fontSize:{
+        "customtext": "20px"
+      },
+      width:{
+        "600":"850px",
+        "646":"646px"
+      },
     },
   },
   plugins: []

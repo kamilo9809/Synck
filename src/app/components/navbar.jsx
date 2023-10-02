@@ -7,7 +7,7 @@ import Image from "next/image";
   export default function Navbar() {
  
     return (
-      <nav className="bg-color-gris opacity-98">
+      <nav className="bg-color-gris opacity-98 fixed">
     <div className="mx-auto max-w-7x1 px-2 sm:px-6 lg:px-8">
       <div className="relative flex navbarHeight items-center justify-between">
 

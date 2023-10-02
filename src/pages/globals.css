@@ -328,3 +328,6 @@ margin-top: 300px;
     -webkit-text-fill-color: transparent;
 }
 
+.fatdown{
+    background: linear-gradient(119deg, #1B1B1B 22.31%, rgba(27, 27, 27, 0.00) 97.1%);
+}
